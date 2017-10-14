@@ -1,0 +1,1185 @@
+#app form {
+	
+	size: 1024; 600
+	location: 640; 480
+	text: "PENIS"
+	color-main: ffffff
+	color-back: 404040
+	
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*1 - all/10
+		location-y: all/10*1 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*2 - all/10
+		location-y: all/10*1 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*3 - all/10
+		location-y: all/10*1 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*4 - all/10
+		location-y: all/10*1 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*5 - all/10
+		location-y: all/10*1 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*6 - all/10
+		location-y: all/10*1 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*7 - all/10
+		location-y: all/10*1 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*8 - all/10
+		location-y: all/10*1 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*9 - all/10
+		location-y: all/10*1 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*10 - all/10
+		location-y: all/10*1 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	
+	
+	
+	
+	
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*1 - all/10
+		location-y: all/10*2 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*2 - all/10
+		location-y: all/10*2 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*3 - all/10
+		location-y: all/10*2 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*4 - all/10
+		location-y: all/10*2 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*5 - all/10
+		location-y: all/10*2 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*6 - all/10
+		location-y: all/10*2 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*7 - all/10
+		location-y: all/10*2 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*8 - all/10
+		location-y: all/10*2 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*9 - all/10
+		location-y: all/10*2 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*10 - all/10
+		location-y: all/10*2 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	
+	
+	
+	
+	
+	
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*1 - all/10
+		location-y: all/10*3 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*2 - all/10
+		location-y: all/10*3 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*3 - all/10
+		location-y: all/10*3 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*4 - all/10
+		location-y: all/10*3 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*5 - all/10
+		location-y: all/10*3 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*6 - all/10
+		location-y: all/10*3 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*7 - all/10
+		location-y: all/10*3 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*8 - all/10
+		location-y: all/10*3 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*9 - all/10
+		location-y: all/10*3 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*10 - all/10
+		location-y: all/10*3 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*1 - all/10
+		location-y: all/10*4 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*2 - all/10
+		location-y: all/10*4 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*3 - all/10
+		location-y: all/10*4 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*4 - all/10
+		location-y: all/10*4 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*5 - all/10
+		location-y: all/10*4 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*6 - all/10
+		location-y: all/10*4 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*7 - all/10
+		location-y: all/10*4 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*8 - all/10
+		location-y: all/10*4 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*9 - all/10
+		location-y: all/10*4 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*10 - all/10
+		location-y: all/10*4 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*1 - all/10
+		location-y: all/10*5 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*2 - all/10
+		location-y: all/10*5 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*3 - all/10
+		location-y: all/10*5 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*4 - all/10
+		location-y: all/10*5 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*5 - all/10
+		location-y: all/10*5 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*6 - all/10
+		location-y: all/10*5 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*7 - all/10
+		location-y: all/10*5 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*8 - all/10
+		location-y: all/10*5 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*9 - all/10
+		location-y: all/10*5 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*10 - all/10
+		location-y: all/10*5 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*1 - all/10
+		location-y: all/10*6 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*2 - all/10
+		location-y: all/10*6 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*3 - all/10
+		location-y: all/10*6 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*4 - all/10
+		location-y: all/10*6 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*5 - all/10
+		location-y: all/10*6 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*6 - all/10
+		location-y: all/10*6 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*7 - all/10
+		location-y: all/10*6 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*8 - all/10
+		location-y: all/10*6 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*9 - all/10
+		location-y: all/10*6 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*10 - all/10
+		location-y: all/10*6 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*1 - all/10
+		location-y: all/10*7 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*2 - all/10
+		location-y: all/10*7 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*3 - all/10
+		location-y: all/10*7 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*4 - all/10
+		location-y: all/10*7 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*5 - all/10
+		location-y: all/10*7 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*6 - all/10
+		location-y: all/10*7 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*7 - all/10
+		location-y: all/10*7 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*8 - all/10
+		location-y: all/10*7 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*9 - all/10
+		location-y: all/10*7 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*10 - all/10
+		location-y: all/10*7 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*1 - all/10
+		location-y: all/10*8 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*2 - all/10
+		location-y: all/10*8 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*3 - all/10
+		location-y: all/10*8 - all/10
+		text: "DO NOT CLICK THIS"
+		color-main: 888888
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "meta.dat"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*4 - all/10
+		location-y: all/10*8 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*5 - all/10
+		location-y: all/10*8 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*6 - all/10
+		location-y: all/10*8 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*7 - all/10
+		location-y: all/10*8 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*8 - all/10
+		location-y: all/10*8 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*9 - all/10
+		location-y: all/10*8 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*10 - all/10
+		location-y: all/10*8 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*1 - all/10
+		location-y: all/10*9 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*2 - all/10
+		location-y: all/10*9 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*3 - all/10
+		location-y: all/10*9 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*4 - all/10
+		location-y: all/10*9 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*5 - all/10
+		location-y: all/10*9 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*6 - all/10
+		location-y: all/10*9 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*7 - all/10
+		location-y: all/10*9 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*8 - all/10
+		location-y: all/10*9 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*9 - all/10
+		location-y: all/10*9 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*10 - all/10
+		location-y: all/10*9 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*1 - all/10
+		location-y: all/10*10 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*2 - all/10
+		location-y: all/10*10 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*3 - all/10
+		location-y: all/10*10 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*4 - all/10
+		location-y: all/10*10 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*5 - all/10
+		location-y: all/10*10 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*6 - all/10
+		location-y: all/10*10 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*7 - all/10
+		location-y: all/10*10 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*8 - all/10
+		location-y: all/10*10 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*9 - all/10
+		location-y: all/10*10 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	!button btn {
+		size: all/10; all/10
+		location-x: all/10*10 - all/10
+		location-y: all/10*10 - all/10
+		text: "hello"
+		color-main: 555555
+		image: "button_01.png"
+		image-focus: "button_02.png"
+		image-pressed: "button_03.png"
+		image-style: stretch
+	}
+	
+	
+}

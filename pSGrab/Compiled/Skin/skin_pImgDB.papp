@@ -1,0 +1,460 @@
+// Old pImgDB skin
+
+#Main {
+	size: 1012; 581
+	location-x: all/2 - 1012/2
+	location-y: all/2 - 581/2
+	color-back: 303030
+	color-main: ffffff
+	text: "pImgDB ~old skin test~"
+	!label Display_resolution {
+		size: 70; 9
+		location: 12; 0
+		color-main: b0b0b0
+		font-size: 6
+		text: "768x483 - 16x10,1"
+	}
+	!panel Dropdowns {
+		size: 214; 34
+		location: 12; 12
+		color-back: 202020
+		border: 2d
+		!button Toggle_sidebars {
+			size: 10; 26
+			location: 3; 3
+			color-back: 606060
+		}
+		!dropdown Change_sidepanel {
+			size: 92; 21
+			location: 19; 5
+			color-back: 181818
+			color-main: ffffff
+			text: "1 - General"
+			border: 2d
+		}
+		!dropdown Change_mainpanel {
+			size: 92; 21
+			location: 117; 5
+			color-back: 181818
+			color-main: ffffff
+			text: "2 - Thumbnails"
+			border: 2d
+		}
+	}
+	!panel Top_info {
+		size-x: all-244
+		size-y: 34
+		location: 232; 12
+		color-back: 202020
+		border: 2d
+		!textbox Quicksearch {
+			size: 125; 20
+			location-x: all-151
+			location-y: 6
+			color-back: 000000
+			color-main: ffffff
+			text: "Quicksearch"
+			text-align: m
+		}
+		!checkbox Quicksearch_enable {
+			size: 15; 14
+			location: all-20; 10
+		}
+		!label Top_info_text {
+			location: 3; 0
+			size-x: all-8
+			size-y: 32
+			text: "Selected  ~  Rating  ~  Resolution  ~  Size"
+			text-align: ml
+		}
+	}
+	!panel Sidepanel_general {
+		size-x: 214
+		size-y: all-64
+		location: 12; 52
+		color-back: 202020
+		border: 2d
+		!dropdown Database {
+			size: 206; 21
+			location: 3; 3
+			color-back: 181818
+			color-main: ffffff
+			text: "Database selector"
+			border: 2d
+		}
+		
+		
+		
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 3; 30
+			color-back: transparent
+			color-main: ffffff
+			text: "Create DB"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 109; 30
+			color-back: transparent
+			color-main: ffffff
+			text: "Save changes"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 3; 59
+			color-back: transparent
+			color-main: ffffff
+			text: "Search"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 109; 59
+			color-back: transparent
+			color-main: ffffff
+			text: "Show all images"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 3; 98
+			color-back: transparent
+			color-main: ffffff
+			text: "Quick Edit"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 109; 98
+			color-back: transparent
+			color-main: ffffff
+			text: "Mass Edit"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 3; 127
+			color-back: transparent
+			color-main: ffffff
+			text: "Tags OV"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 109; 127
+			color-back: transparent
+			color-main: ffffff
+			text: "KeyTagger"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 3; 156
+			color-back: transparent
+			color-main: ffffff
+			text: "tagBase"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 109; 156
+			color-back: transparent
+			color-main: ffffff
+			text: "Upload"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 3; 185
+			color-back: transparent
+			color-main: ffffff
+			text: "WP changer"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 109; 185
+			color-back: transparent
+			color-main: ffffff
+			text: "Tagbar"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		
+		
+		
+		
+		
+		
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 3; 224
+			color-back: transparent
+			color-main: ffffff
+			text: "FBinds (ex)"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 109; 224
+			color-back: transparent
+			color-main: ffffff
+			text: "FBinds (mk)"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		
+		
+		
+		
+		
+		
+		!label NIGLET {
+			location: 3; 269
+			size: 45; 13
+			color-main: ffffff
+			text: "Thumbs"
+		}
+		!label NIGLET {
+			location: 3; 297
+			size: 45; 13
+			color-main: ffffff
+			text: "ResMul"
+		}
+		!label NIGLET {
+			location: 3; 325
+			size: 45; 13
+			color-main: ffffff
+			text: "Threads"
+		}
+		
+		
+		
+		!textbox NIGNIG {
+			size: 50; 20
+			location: 53; 265
+			color-back: 000000
+			color-main: ffffff
+			text: "16"
+			text-align: m
+		}
+		!textbox NIGNIG {
+			size: 50; 20
+			location: 53; 294
+			color-back: 000000
+			color-main: ffffff
+			text: "1,5"
+			text-align: m
+		}
+		!textbox NIGNIG {
+			size: 50; 20
+			location: 53; 322
+			color-back: 000000
+			color-main: ffffff
+			text: "4"
+			text-align: m
+		}
+		
+		
+		
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 109; 263
+			color-back: transparent
+			color-main: ffffff
+			text: "Redraw thumbs"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 109; 292
+			color-back: transparent
+			color-main: ffffff
+			text: "Reload thumbs"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 109; 321
+			color-back: transparent
+			color-main: ffffff
+			text: "Open mnaual"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+		}
+		
+		
+		
+		
+		
+		
+		!checkbox HAHAHA {
+			size: 90; 17
+			location: 3; 363
+			color-main: ffffff
+			text: "Quickthumbs"
+		}
+		!checkbox DISREGARD {
+			size: 90; 17
+			location: 3; 390
+			color-main: ffffff
+			text: "Current size"
+		}
+		!label THAT {
+			size: 88; 13
+			location: 3; 417
+			color-main: ffffff
+			text: "Delete after (sec)"
+		}
+		
+		
+		
+		!button DEVELOPERS {
+			size: 100; 23
+			location: 109; 359
+			color-back: transparent
+			color-main: ffffff
+			text: "Cache entire DB"
+		}
+		!textbox NIGNIG {
+			size: 100; 20
+			location: 109; 388
+			color-back: 000000
+			color-main: ffffff
+			text: "384 x 240"
+			text-align: m
+		}
+		!textbox NIGNIG {
+			size: 100; 20
+			location: 109; 414
+			color-back: 000000
+			color-main: ffffff
+			text: "900"
+			text-align: m
+		}
+		
+		
+		
+		
+		
+		
+		!dropdown SHIT_BRICKS {
+			size: 100; 21
+			location: 3; 450
+			color-back: 181818
+			color-main: ffffff
+			text: "Rotate 0*"
+			border: 2d
+		}
+		!dropdown BRICKS_SHAT {
+			size: 100; 21
+			location: 109; 450
+			color-back: 181818
+			color-main: ffffff
+			text: "Flip none"
+			border: 2d
+		}
+		
+		
+		
+		!checkbox HAHAHA {
+			size: 95; 17
+			location: 3; 480
+			color-main: ffffff
+			text: "Animated GIFs"
+		}
+	}
+	!panel Thumbnails {
+		size: all-244; all-101
+		location: 232; 52
+		color-back: 101010
+		border: 2d
+	}
+	!panel Bottom_info {
+		size: all-244; 31
+		location: 232; all-43
+		color-back: 202020
+		border: 2d
+		!button DEVELOPERS {
+			size: 75; 23
+			location: all-161; 3
+			color-back: transparent
+			color-main: ffffff
+			text: "<- Previous"
+		}
+		!button DEVELOPERS {
+			size: 75; 23
+			location: all-80; 3
+			color-back: transparent
+			color-main: ffffff
+			text: "Next ->"
+		}
+		!label Top_info_text {
+			location: 3; 0
+			size-x: all-8
+			size-y: 32
+			text: ">> Alpha test of  "pAppSkin" >> The new skinning engine.    !!! NOTHING HERE IS SUPPOSED TO WORK !!!"
+			text-align: ml
+		}
+	}
+}
+
+// End of skin

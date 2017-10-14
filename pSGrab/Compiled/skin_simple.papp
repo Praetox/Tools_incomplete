@@ -1,0 +1,527 @@
+// Default pSGrab skin
+
+/////////////////////
+//
+// ADDED FEATURES
+// 
+//     size: 640; 480
+//     size-x: 640
+//     size-y: 480
+//     size-x: 64*8 + 3^2 - (sqrt)9
+//     size-y: all-16
+//     
+//     location: 0; 0
+//     location-x: 4*8 - 2
+//     location-y: (512^2+12)/32
+//
+//     draggable: form
+//     
+//     text: "NIGGER NIGGER\nDOUBLENIGGER"
+//     text-align: l m r tl tm tr ml mm mr bl bm br
+//     (left, middle, right, top-left, top-middle, etc)
+//
+//     font-family: Comic Sans MS
+//     font-size: 10
+//     font-style: bold, italic, underline, strike
+//     
+//     checked: yes
+//     multiline: yes
+//     
+//     tip: "This appears when mouse\nhovers over the control."
+//     
+//     color-main: ffffff
+//     color-back: 000000
+//     
+//     image: background.png
+//     image-style: none
+//     image-style: center
+//     image-style: stretch
+//     image-style: zoom
+//     
+//     font-family: Comic Sans MS
+//     font-size: 72
+//     font-style: bold, italic, underline, strike
+//     
+//     border: 2d
+//     border: 3d
+//     border: none
+//     border: fixed
+//     border: slim
+//     border: slimfixed
+//
+//
+//
+// WHAT'S ALLOWED WHERE
+//
+// #Main {
+//     
+//     size, size-x, size-y
+//     location, location-x, location-y
+//     border: none fixed slim slimfixed
+//     text
+//     font-family, -size, -style
+//     tip
+//     color-main, color-back
+//     image, image-style
+//     
+//     !panel x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         border: 2d 3d none
+//         font-family, -size, -style
+//         tip
+//         color-main, color-back
+//         image, image-focus, image-pressed, image-style
+//     }
+//     !image x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         border: 2d 3d none
+//         tip
+//         color-back
+//         image, image-style
+//     }
+//     !button x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         text, text-align tl tm tr etc.
+//         font-family, size, style
+//         tip
+//         color-main, color-back
+//         image, image-focus, image-pressed, image-style
+//     }
+//     !listbox x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         border: 2d 3d none
+//         font-family, size, style
+//         tip
+//         color-main, color-back
+//         add-item
+//     }
+//     !dropdown x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         border: 2d 3d
+//         text
+//         font-family, -size, -style
+//         tip
+//         color-main, color-back
+//         add-item
+//     }
+//     !textbox x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         border: 2d 3d none
+//         text, text-align l m r
+//         font-family, -size, -style
+//         multiline
+//         tip
+//         color-main, color-back
+//     }
+//     !checkbox x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         text, text-align tl tm tr etc.
+//         checked
+//         tip
+//         color-main, color-back
+//         image, image-focus, image-pressed, image-style
+//         add-item
+//     }
+//     !label x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         text, text-align
+//         multiline
+//         tip
+//         color-main, color-back
+//         image, image-focus, image-pressed, image-style
+//         add-item
+//     }
+
+
+
+#Main {
+	//Default size
+	size: 1008; 459
+	
+	//Center window on screen
+	location-x: all/2 - 1014/2
+	location-y: all/2 - 557/2
+	
+	//Colors are regular hex codes
+	color-back: ff00ff
+	color-main: ffffff
+	font-family: Verdana
+	
+	//Proper size based on form type will be added...
+	border: none
+	text: "pSGrab"
+	
+	//Makes panels transparent OMG
+	color-trans: ff00ff
+	
+	//Let's add a draggable button
+	!button x {
+		size: 312; 103
+		location: 12; 12
+		color-back: 4e545e
+		font-size: 16
+		text: "Hurrr I am logo"
+		draggable: window
+	}
+	
+	!panel x {
+		border: 2d
+		size: 312; 68
+		location: 12; 129
+		color-back: 4e545e
+		!label x {
+			location: 7; 12
+			size: 40; 13
+			text: "Script"
+		}
+		!label x {
+			location: 7; 41
+			size: 40; 13
+			text: "Store"
+		}
+		!dropdown Scr_cbScript {
+			location: 53; 8
+			size: 184; 21
+			color-back: 33353e
+			tip: "The pSGrab script file (.psg) used for this specific download."
+		}
+		!textbox Scr_txtPath {
+			location: 53; 38
+			size: 184; 21
+			color-back: 33353e
+			tip: "The directory that will contain all downloaded files.\nAny use of "saveto" in the script will use this as root."
+		}
+		!button Scr_cmdScript {
+			size: 60; 23
+			location: 243; 8
+			color-back: transparent
+			text: "Refresh"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Refresh the list of scripts available in the "Scripts" directory.\nClick this if you've added new scripts since app was started."
+			
+			//The "event-" is which bit of code the button should execute
+			//Tip: The same events can be added at multiple places...
+			//Try copying the line below to some other control.
+			event-click: Scr_cmdScript_Click
+		}
+		!button Scr_cmdPath {
+			size: 60; 23
+			location: 243; 37
+			color-back: transparent
+			text: "Browse"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Pick a directory to store files in."
+			event-click: Scr_cmdPath_Click
+		}
+	}
+	!panel x {
+		border: 2d
+		size: 312; 183
+		location: 12; 211
+		color-back: 4e545e
+		!textbox ParQue_txtQue {
+			size: 296; 138
+			location: 7; 7
+			multiline: yes
+			color-back: 33353e
+		}
+		!button ParQue_cmdSave {
+			size: 145; 23
+			location: 7; 151
+			color-back: transparent
+			text: "Save parameters"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Save the list of automatically applied script parameters."
+		}
+		!button ParQue_cmdLoad {
+			size: 145; 23
+			location: 158; 151
+			color-back: transparent
+			text: "Load parameters"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Load a list of script parameters for automatic execution."
+		}
+	}
+	!panel x {
+		border: 2d
+		size: 312; 39
+		location: 12; 408
+		color-back: 4e545e
+		!button Scr_cmdAdd {
+			size: 145; 23
+			location: 7; 7
+			color-back: transparent
+			text: "Add to queue"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Add this task to the queue."
+		}
+		!button Scr_cmdStart {
+			size: 145; 23
+			location: 158; 7
+			color-back: transparent
+			text: "Start immediately"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Execute this task immediately."
+		}
+	}
+
+
+
+
+
+	!panel x {
+		border: 2d
+		size: 312; 273
+		location: 348; 12
+		color-back: 4e545e
+		!listbox JobQue_lstQue {
+			size: 296; 199
+			location: 7; 7
+			color-back: 33353e
+		}
+		!button JobQue_cmdSave {
+			size: 145; 23
+			location: 7; 212
+			color-back: transparent
+			text: "Save job queue"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Save the list of tasks to execute."
+		}
+		!button JobQue_cmdLoad {
+			size: 145; 23
+			location: 158; 212
+			color-back: transparent
+			text: "Load job queue"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Load a list of tasks to execute."
+		}
+		!button JobQue_cmdExecAll {
+			size: 145; 23
+			location: 7; 241
+			color-back: transparent
+			text: "Execute all tasks"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Oh gee, I wonder what this button does."
+		}
+		!button JobQue_cmdExecSel {
+			size: 145; 23
+			location: 158; 241
+			color-back: transparent
+			text: "Execute selected"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Executes the selected tasks."
+		}
+	}
+	!panel x {
+		border: 2d
+		size: 312; 148
+		location: 348; 299
+		color-back: 4e545e
+		!label x {
+			size: 248; 13
+			location: 7; 11
+			text: "Amount of simultaneous downloads"
+		}
+		!label x {
+			size: 248; 13
+			location: 7; 37
+			text: "Wait n seconds between each download start"
+		}
+		!label x {
+			size: 248; 13
+			location: 7; 63
+			text: "Wait n seconds between each download overall"
+		}
+		!label x {
+			size: 248; 13
+			location: 7; 89
+			text: "Allocate on creation (less fragmentation)"
+		}
+		!textbox ddl_threads {
+			size: 42; 20
+			location: 261; 7
+			color-back: 33353e
+			text: "5"
+			text-align: r
+		}
+		!textbox ddl_wait1 {
+			size: 42; 20
+			location: 261; 33
+			color-back: 33353e
+			text: "0"
+			text-align: r
+		}
+		!textbox ddl_wait2 {
+			size: 42; 20
+			location: 261; 59
+			color-back: 33353e
+			text: "0"
+			text-align: r
+		}
+		!checkbox ddl_allocate {
+			size: 13; 13
+			location: 290; 89
+			checked: yes
+		}
+		!button ddl_cmdSave {
+			size: 145; 23
+			location: 7; 116
+			color-back: transparent
+			text: "Save configuration"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Save this configuration"
+		}
+		!button ddl_cmdLoad {
+			size: 145; 23
+			location: 158; 116
+			color-back: transparent
+			text: "Load configuration"
+			image: "button_01.png"
+			image-focus: "button_02.png"
+			image-pressed: "button_03.png"
+			image-style: stretch
+			tip: "Load stored configuration"
+		}
+	}
+	
+	
+	
+	
+	
+	!panel x {
+		border: 2d
+		size: 312; 320
+		location: 684; 12
+		color-back: 4e545e
+		font-size: 7
+		!listbox Scr_Log {
+			size: 296; 255
+			location: 7; 7
+			color-back: 33353e
+			font-family: Lucida Console
+			add-item: 1:Loaded script "dosky-swf-math.psg"
+			add-item: 2:Reading url (http://www.dosky.info/?s=flash&search=&start=1)
+			add-item: 3: >> Added 30 files (30 in total)
+			add-item: 4:1: ! =).swf                              [********************] (390KB)
+			add-item: 5:2: !Partyhard.swf                        [********************] (430KB)
+			add-item: 6:3: !Umbrella Dance!.swf                  [********************] (6508KB)
+			add-item: 7:4: !Umbrella_Dance!.swf                  [********************] (16KB)
+			add-item: 8:5: '=3'.swf                              [********************] (127KB)
+			add-item: 9:6: ++popotan.swf                         [********************] (665KB)
+			add-item: 10:7: --.swf                                [********************] (2382KB)
+			add-item: 11:8: -..-flash180--run_hero_run.swf        [********************] (429KB)
+			add-item: 12:9: -..-flash180--thelastdenominator.swf  [********************] (1221KB)
+			add-item: 13:10: -..-flash182--Sparta.swf             [********************] (399KB)
+			add-item: 14:11: -..-flash182--nerrbody.swf           [********************] (266KB)
+			add-item: 15:12: -..-flash184--lawnmower.swf          [********************] (402KB)
+			add-item: 16:13: -..-flash185--All_day_long.swf       [********************] (345KB)
+			add-item: 17:24: -..-flash185--BadGuys.swf            [********************] (807KB)
+			add-item: 18:25: -..-flash185--Beach_Partee.swf       [********************] (1391KB)
+			add-item: 19:26: -..-flash185--Kung_Pow.swf           [********************] (1808KB)
+			add-item: 20:27: -..-flash185--PW_Juice_for_all.swf   [********************] (5559KB)
+		}
+		!label x {
+			size: 45; 13
+			location: 7; 271
+			text: "Param"
+		}
+		!label x {
+			size: 248; 13
+			location: 7; 294
+			text: "Verbose mode (show script debug information)"
+		}
+		!textbox Scr_Param {
+			size: 250; 20
+			location: 53; 268
+			color-back: 33353e
+		}
+		!checkbox Scr_Debug {
+			size: 13; 13
+			location: 290; 294
+		}
+	}
+	
+	
+	
+	
+	
+	!panel x {
+		border: 2d
+		size: 312; 102
+		location: 684; 345
+		color-back: 4e545e
+		font-family: arial
+		font-size: 8
+		!label x {
+			size: 50; 13
+			location: 7; 6
+			text: "Progress"
+		}
+		!label x {
+			size: 240; 13
+			location: 63; 6
+			text: "File URL"
+		}
+		!label x {
+			size: 50; 69
+			location: 7; 24
+			text: "10,8%\n76,9%\n92,0%\n47,2%\n38,5%"
+		}
+		!label x {
+			size: 9001; 69
+			location: 63; 24
+			text: "http://zip.4chan.org/w/src/1224262893412.png\nhttp://zip.4chan.org/w/src/1224286708018.jpg\nhttp://zip.4chan.org/w/src/1224288779173.jpg\nhttp://zip.4chan.org/w/src/1224293616822.jpg\nhttp://zip.4chan.org/w/src/1224294598579.jpg"
+		}
+	}
+}
+
+// End of file.

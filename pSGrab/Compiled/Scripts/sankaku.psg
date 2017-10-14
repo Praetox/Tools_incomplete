@@ -1,0 +1,12 @@
+SETC b //Full URL
+SAVETO +sankaku
+NAVIGATE [[cb]]
+    CUTA a, <title>
+    CUTB a,  | Sankaku
+    SAVETO +[[a]]
+    CUTA b, <div id="postcontent">
+    CUTB b, <!-- Edit -->
+    SPLIT b, <a href="
+    CUTB b, "
+    GRAB b, 1, 0, [[ofn1]]
+RETURN

@@ -1,0 +1,27 @@
+SETC a, http://localhost/
+SAVETO +lh
+NAVIGATE [[ca]]00.html
+    SPLIT a, <a href="
+    REMB a, ">
+    ADDA a, [[ca]]
+    NAVIGATE a, 1, 0
+        SPLIT a, <a href="
+        REMB a, ">
+        ADDA a, [[ca]]
+        NAVIGATE a, 1, 0
+            SPLIT b, <img src="
+            REMB b, " />
+            ADDA b, [[ca]]
+            GRAB b, 1, 0, [[ofn1]]
+        RETURN
+        SPLIT b, <img src="
+        REMB b, " />
+        ADDA b, [[ca]]
+        GRAB b, 1, 0, [[ofn1]]
+    RETURN
+    SPLIT b, <img src="
+    REMB b, " />
+    ADDA b, [[ca]]
+    GRAB b, 1, 0, [[ofn1]]
+    GETNOW
+RETURN

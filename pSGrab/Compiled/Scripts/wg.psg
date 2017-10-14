@@ -1,0 +1,14 @@
+SETC a, http://orz.4chan.org/wg/
+SETC b //Thread ID
+SAVETO +4chan/wg-[[cb]]
+NAVIGATE [[ca]]res/[[cb]].html
+    SPLIT a, File :<a href="
+    SPLIT b, File :<a href="
+    SPLIT c, File :<a href="
+    CUTA b, , <span title="
+    CUTA c, /src/
+    CUTB c, " 
+    CUTB b, ">
+    CUTB a, "
+    GRAB a, 1, 0, [[vb]] - [[vc]]
+RETURN

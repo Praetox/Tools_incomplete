@@ -1,0 +1,9 @@
+NAVIGATE http://orz.4chan.org/wg/imgboard.html
+SPLIT a, </a>  &nbsp; [<a href="
+CUTB a, "
+ADDA a, http://orz.4chan.org/wg/
+NAVIGATE va, 1, 0
+    SPLIT a, File :<a href="
+    CUTB a, "
+    GRAB a, 1, 0, wg-%g-%i.jpg
+RETURN

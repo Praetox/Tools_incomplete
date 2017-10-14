@@ -1,0 +1,26 @@
+SETC a, http://www.dosky.info/?s=images&start=
+SETC b, http://www.dosky.info/
+SETC c, http://www.dosky.info/dump.images/
+SETC d //Start from image x
+SAVETO +dosky\images
+ECHO cd
+NAVIGATE [[ca]][[cd]]
+    CUTA a, <td id="td_site">
+    CUTB a, ">ллл</a>
+    SPLIT a, <a href="
+    CUTB a, ">
+    ADDA a, [[cb]]
+    NAVIGATE a, 1, 1
+        CUTA a, <img id="showimg" src="
+        CUTB a, ">
+        SPLIT a, YOU JUST LOST THE GAME
+        ADDA a, [[cb]]
+        GRAB a, 0, 0, [[ofn1]]
+    RETURN
+    GETNOW
+    CUTA b, <td id="td_site">
+    CUTB b, ">╗</a>
+    CUTA b, >л</a> <a href="?s=images&start=
+    SETC d, [[b]]
+    GOTO 6
+RETURN

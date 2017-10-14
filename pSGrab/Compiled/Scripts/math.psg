@@ -1,0 +1,8 @@
+SETC a, 1
+SETC b, wut
+SETC c, wat
+SETC d //Hello
+MATH a, [[ca]] * 2
+MATH ca, [[a]] * 2
+SETC e //Fuckwin
+GOTO 5

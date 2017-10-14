@@ -1,0 +1,28 @@
+// Default skin for pCollageWall
+
+#app Win {
+    size: 300; 300
+    location: 640; 480
+    color-back: ccff88
+    color-main: ffffff
+    !panel Pan {
+        location-x: (all/100)*10
+        location-y: (all/100)*10
+        size-x: (all/100)*80
+        size-y: (all/100)*80
+        color-back: 88ccff
+        !label Lab {
+            location-x: (all/100)*10
+            location-y: (all/100)*10
+            size-x: (all/100)*80
+            size-y: (all/100)*10
+            color-back: 88ffcc
+			color-main: 000000
+            text: "Nested controls!"
+			font-style: italic, bold
+			font-size: 12
+        }
+    }
+}
+
+// End of file

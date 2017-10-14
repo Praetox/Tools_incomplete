@@ -1,0 +1,16 @@
+EVENT file_cut retry.kill 3
+SETC a, http://www.dosky.info/?s=flash&search=&start=
+SETC b, http://www.dosky.info/dump.flash/
+SETC c //Start from image x
+SAVETO +dosky\flash
+NAVIGATE [[ca]][[cc]]
+    CUTA a, value="Search">
+    CUTB a, ">ллл</a>
+	SPLIT a, <a href="?s=flash&x=
+    CUTB a, ">
+    ADDA a, [[cb]]
+    GRAB a, 1, 1, [[ofn1]]
+	GETNOW
+    MATH cc, [[cc]] + 18
+    GOTO 6
+RETURN

@@ -1,0 +1,68 @@
+//Just because I hate you guys, all commands are CaSe SeNsItIvE. Yeah, I just had to.
+//Also, pSGrab only sees the commands. All blank lines and shit starting with // are
+//for you folks to understand what's going on. Atleast I hope you will. Meh.
+
+//Sets a constant variable, ca, to contain the link to 4chan /w/.
+SETC a, http://zip.4chan.org/w/
+
+//Navigates to the URL stored in constant variable a (ca).
+//This sets variables a-z to contain the website source code.
+NAVIGATE [[ca]]
+
+//Removes everything that appears before and including <form name="delform" in variable a.
+//This will ofcourse not affect variables b-z
+REMA a, <form name="delform"
+
+//Removes everything that appears after and including value=userdel> in variable a.
+//Again, only applies to variable a.
+REMB a, value=usrdel>
+
+//Splits the text in variable a to an array, consisting of the text appearing
+//between each occurence of &nbsp; [<a href="
+SPLIT a, &nbsp; [<a href="
+
+//Goes through the entire array, and removes everything after and including ">Reply
+REMB a, ">Reply
+
+//The links are not absolute, so we need to add http://zip.4chan.org/w/ ourselves.
+//Notice how this is conveniently stored in constant a.
+ADDA a, [[ca]]
+//Note: ADDB would append the value to the end of the elements instead of the beginning.
+
+//Navigates to each and every URL stored in array (previously variable) a, and
+//executes the script between NAVIGATE and RETURN on each URL present in the array.
+NAVIGATE a, 1, 0
+
+	//Let's find the current thread number in the source...
+	REMA n, name=resto value="
+	REMB n, ">
+	
+	//...and use this to store downloaded files in correct directory.
+	SAVETO +4chan\w-[[n]]
+	
+	//First we need the image URL...
+	SPLIT a, File :<a href="
+	REMB a, "
+	
+	//Then we want the original name of the posted image...
+	SPLIT b, File :<a href="
+	REMA b, , <span title="
+	REMB b, ">
+	
+	//And finally, the 4chan-generated name (for good measure).
+	SPLIT c, File :<a href="
+	REMA c, /src/
+	REMB c, " 
+	
+	//GRAB adds files to download from the array a, which contains all the image URLs.
+	//It will start adding from offset 1 (item 2), and will add all links until it is
+	//0 items away from the end of the array (in other words, including the last link).
+	//The filename will be generated using arrays b and c, which means that the template
+	//"Original filename - 4chan-filename.ext" will be used for all images.
+	GRAB a, 1, 0, [[vb]] - [[vc]]
+	
+	//Also, we want to start downloading files immediately for each thread.
+	GETNOW
+	
+//Now let's continue until we've downloaded all images.
+RETURN

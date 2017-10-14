@@ -1,0 +1,10 @@
+SETC a, http://forums.animesuki.com/archive/index.php/t-36875.html
+NAVIGATE [[ca]]
+    SPLIT a, http://
+    TRIMB a, 
+    TRIMB a, )
+    TRIMB a, </br
+    TRIMB a, </div
+    ADDA a, http://
+    GRAB a, 1, 0, [[ofn1]]
+RETURN

@@ -1,0 +1,533 @@
+// Default pSGrab skin
+
+/////////////////////
+//
+// ADDED FEATURES
+// 
+//     size: 640; 480
+//     size-x: 640
+//     size-y: 480
+//     size-x: 64*8 + 3^2 - (sqrt)9
+//     size-y: all-16
+//     
+//     location: 0; 0
+//     location-x: 4*8 - 2
+//     location-y: (512^2+12)/32
+//
+//     draggable: form
+//     resize: form
+//     event: click, select
+//     
+//     text: "NIGGER NIGGER\nDOUBLENIGGER"
+//     text-align: l m r tl tm tr ml mm mr bl bm br
+//     (left, middle, right, top-left, top-middle, etc)
+//
+//     font-family: Comic Sans MS
+//     font-size: 10
+//     font-style: bold, italic, underline, strike
+//     
+//     enabled: yes/no
+//     checked: yes/no
+//     multiline: yes/no
+//     
+//     tip: "This appears when mouse\nhovers over the control."
+//     
+//     color-main: ffffff
+//     color-back: 000000
+//     color-trans: ff00ff
+//     
+//     image: background.png
+//     image-style: none
+//     image-style: center
+//     image-style: stretch
+//     image-style: zoom
+//     
+//     font-family: Comic Sans MS
+//     font-size: 72
+//     font-style: bold, italic, underline, strike
+//     
+//     border: 2d
+//     border: 3d
+//     border: none
+//     border: fixed
+//     border: slim
+//     border: slimfixed
+//
+//
+//
+// WHAT'S ALLOWED WHERE
+//
+// #Main {
+//     
+//     size, size-x, size-y
+//     location, location-x, location-y
+//     border: none fixed slim slimfixed
+//     text
+//     font-family, -size, -style
+//     tip
+//     color-main, color-back, color-trans
+//     image, image-style
+//     
+//     !panel x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         border: 2d 3d none
+//         font-family, -size, -style
+//         tip
+//         color-main, color-back
+//         image, image-focus, image-pressed, image-style
+//     }
+//     !image x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         border: 2d 3d none
+//         tip
+//         color-back
+//         image, image-style
+//     }
+//     !button x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         text, text-align tl tm tr etc.
+//         font-family, size, style
+//         tip
+//         color-main, color-back
+//         image, image-focus, image-pressed, image-style
+//     }
+//     !listbox x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         border: 2d 3d none
+//         font-family, size, style
+//         tip
+//         color-main, color-back
+//         add-item
+//     }
+//     !dropdown x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         border: 2d 3d
+//         text
+//         font-family, -size, -style
+//         tip
+//         color-main, color-back
+//         add-item
+//     }
+//     !textbox x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         border: 2d 3d none
+//         text, text-align l m r
+//         font-family, -size, -style
+//         multiline
+//         tip
+//         color-main, color-back
+//     }
+//     !checkbox x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         text, text-align tl tm tr etc.
+//         checked
+//         tip
+//         color-main, color-back
+//         image, image-focus, image-pressed, image-style
+//         add-item
+//     }
+//     !label x {
+//         size, size-x, size-y
+//         location, location-x, location-y
+//         draggable: form
+//         text, text-align
+//         multiline
+//         tip
+//         color-main, color-back
+//         image, image-focus, image-pressed, image-style
+//         add-item
+//     }
+//
+// END OF INITIAL COMMENTS
+//
+/////////////////////
+
+
+
+#Main {
+	//Default size
+	size: 1008; 459
+	
+	//Center window on screen
+	location-x: all/2 - 1014/2
+	location-y: all/2 - 557/2
+	
+	//Colors are regular hex codes
+	color-back: 6f7785
+	color-main: ffffff
+	font-family: Verdana
+	
+	//Proper size based on form type will be added...
+	border: none
+	text: "pSGrab"
+	
+	//Makes panels transparent OMG
+	color-trans: 6f7785
+	
+	//Let's add a draggable button
+	!button x {
+		size: 312; 103
+		location: 12; 12
+		color-back: 4e545e
+		font-size: 16
+		text: "Hurrr I am logo"
+		draggable: window
+	}
+	
+	//We need a way to resize the window
+	!image x {
+		size: 12; 12
+		location: all-12; all-12
+		color-back: transparent
+		image: "resize.png"
+		resize: window
+	}
+	
+	!panel x {
+		border: 2d
+		size: 312; 68
+		location: 12; 129
+		color-back: 4e545e
+		!label x {
+			location: 7; 12
+			size: 40; 13
+			text: "Script"
+		}
+		!label x {
+			location: 7; 41
+			size: 40; 13
+			text: "Store"
+		}
+		!dropdown Scr_cbScript {
+			location: 53; 8
+			size: 184; 21
+			color-back: 33353e
+			tip: "The pSGrab script file (.psg) used for this specific download."
+		}
+		!textbox Scr_txtPath {
+			location: 53; 38
+			size: 184; 21
+			color-back: 33353e
+			tip: "The directory that will contain all downloaded files.\nAny use of "saveto" in the script will use this as root."
+		}
+		!button Scr_cmdScript {
+			size: 60; 23
+			location: 243; 8
+			color-back: transparent
+			text: "Refresh"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Refresh the list of scripts available in the "Scripts" directory.\nClick this if you've added new scripts since app was started."
+			
+			//The "event-" is which bit of code the button should execute
+			//Tip: The same events can be added at multiple places...
+			//Try copying the line below to some other control.
+			event-click: Scr_cmdScript_Click
+		}
+		!button Scr_cmdPath {
+			size: 60; 23
+			location: 243; 37
+			color-back: transparent
+			text: "Browse"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Pick a directory to store files in."
+			event-click: Scr_cmdPath_Click
+		}
+	}
+	!panel x {
+		border: 2d
+		size: 312; 183
+		location: 12; 211
+		color-back: 4e545e
+		!textbox ParQue_txtQue {
+			size: 296; 138
+			location: 7; 7
+			multiline: yes
+			tip: "These parameters (one on each line) will be used instead of asking for user input.\nBy entering [[user]], pSGrab will ask for that specific param during download."
+			color-back: 33353e
+		}
+		!button ParQue_cmdSave {
+			size: 145; 23
+			location: 7; 151
+			color-back: transparent
+			text: "Save parameters"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Save the list of automatically applied script parameters."
+			event-click: ParQue_cmdSave_Click
+		}
+		!button ParQue_cmdLoad {
+			size: 145; 23
+			location: 158; 151
+			color-back: transparent
+			text: "Load parameters"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Load a list of script parameters for automatic execution."
+			event-click: ParQue_cmdLoad_Click
+		}
+	}
+	!panel x {
+		border: 2d
+		size: 312; 39
+		location: 12; 408
+		color-back: 4e545e
+		!button Scr_cmdAdd {
+			size: 145; 23
+			location: 7; 7
+			color-back: transparent
+			text: "Add to queue"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Add this task to the queue."
+			event-click: Scr_cmdAdd_Click
+		}
+		!button Scr_cmdStart {
+			size: 145; 23
+			location: 158; 7
+			color-back: transparent
+			text: "Start immediately"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Execute this task immediately."
+			event-click: Scr_cmdStart_Click
+		}
+	}
+
+
+
+
+
+	!panel x {
+		border: 2d
+		size: 312; 273
+		location: 348; 12
+		color-back: 4e545e
+		!listbox JobQue_lstQue {
+			size: 296; 199
+			location: 7; 7
+			color-back: 33353e
+			tip: "Press Delete to remove a task from the download queue.\nPress Insert to update a task with new settings."
+			event-select: JobQue_lstQue_Select
+			event-keypress: Del:JobQue_lstQue_RemSel
+			event-keypress: Ins:JobQue_lstQue_UpdSel
+		}
+		!button JobQue_cmdSave {
+			size: 145; 23
+			location: 7; 212
+			color-back: transparent
+			text: "Save job queue"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Save the list of tasks to execute."
+			event-click: JobQue_cmdSave_Click
+		}
+		!button JobQue_cmdLoad {
+			size: 145; 23
+			location: 158; 212
+			color-back: transparent
+			text: "Load job queue"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Load a list of tasks to execute."
+			event-click: JobQue_cmdLoad_Click
+		}
+		!button JobQue_cmdExecAll {
+			size: 145; 23
+			location: 7; 241
+			color-back: transparent
+			text: "Execute all tasks"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Oh gee, I wonder what this button does."
+			event-click: JobQue_cmdExecAll_Click
+		}
+		!button JobQue_cmdExecSel {
+			size: 145; 23
+			location: 158; 241
+			color-back: transparent
+			text: "Execute selected"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Executes the selected tasks."
+			event-click: JobQue_cmdExecSel_Click
+		}
+	}
+	!panel x {
+		border: 2d
+		size: 312; 148
+		location: 348; 299
+		color-back: 4e545e
+		!label x {
+			size: 248; 13
+			location: 7; 11
+			text: "Amount of simultaneous downloads"
+		}
+		!label x {
+			size: 248; 13
+			location: 7; 37
+			text: "Wait n seconds between each download start"
+		}
+		!label x {
+			size: 248; 13
+			location: 7; 63
+			text: "Wait n seconds between each download overall"
+		}
+		!label x {
+			size: 248; 13
+			location: 7; 89
+			text: "Allocate on creation (less fragmentation)"
+		}
+		!textbox ddl_threads {
+			size: 42; 20
+			location: 261; 7
+			color-back: 33353e
+			text: "2"
+			text-align: r
+		}
+		!textbox ddl_wait1 {
+			size: 42; 20
+			location: 261; 33
+			color-back: 33353e
+			text: "0"
+			text-align: r
+		}
+		!textbox ddl_wait2 {
+			size: 42; 20
+			location: 261; 59
+			color-back: 33353e
+			text: "0"
+			text-align: r
+		}
+		!checkbox ddl_allocate {
+			size: 13; 13
+			location: 290; 89
+			checked: yes
+		}
+		!button ddl_cmdSave {
+			size: 145; 23
+			location: 7; 116
+			color-back: transparent
+			text: "Save configuration"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Save this configuration"
+		}
+		!button ddl_cmdLoad {
+			size: 145; 23
+			location: 158; 116
+			color-back: transparent
+			text: "Load configuration"
+			image: "button_01_blue.png"
+			image-focus: "button_02_blue.png"
+			image-pressed: "button_03_blue.png"
+			image-style: stretch
+			tip: "Load stored configuration"
+		}
+	}
+	
+	
+	
+	
+	
+	!panel x {
+		border: 2d
+		size: all-(312*2)-(7*10)-2; 320
+		location: 684; 12
+		color-back: 4e545e
+		//font-size: 7
+		!listbox Scr_Log {
+			size: all-14; all-64
+			location: 6; 6
+			color-back: 33353e
+			font-family: Lucida Console
+		}
+		!label x {
+			size: 45; 13
+			location: 7; all-48
+			text: "Param"
+		}
+		!label x {
+			size: 248; 13
+			location: 7; all-25
+			text: "Verbose mode (show script debug information)"
+		}
+		!textbox Scr_Param {
+			size: all-62; 20
+			location: 53; all-51
+			color-back: 33353e
+			event-keypress: Enter:Scr_Param_Confirm
+		}
+		!checkbox Scr_Debug {
+			size: 13; 13
+			location: all-22; all-25
+		}
+	}
+	!panel x {
+		border: 2d
+		size: all-(312*2)-(7*10)-2; 102
+		location: 684; 345
+		color-back: 4e545e
+		font-family: arial
+		font-size: 8
+		!label x {
+			size: 50; 13
+			location: 7; 6
+			text: "Progress"
+		}
+		!label x {
+			size: 240; 13
+			location: 63; 6
+			text: "Filename"
+		}
+		!label cli_Progress {
+			size: 50; 69
+			location: 7; 24
+			text: "10,8%\n76,9%\n92,0%\n47,2%\n38,5%"
+		}
+		!label cli_Filename {
+			size: 9001; 69
+			location: 63; 24
+			text: "http://zip.4chan.org/w/src/1224262893412.png\nhttp://zip.4chan.org/w/src/1224286708018.jpg\nhttp://zip.4chan.org/w/src/1224288779173.jpg\nhttp://zip.4chan.org/w/src/1224293616822.jpg\nhttp://zip.4chan.org/w/src/1224294598579.jpg"
+		}
+	}
+}
+
+// End of file.

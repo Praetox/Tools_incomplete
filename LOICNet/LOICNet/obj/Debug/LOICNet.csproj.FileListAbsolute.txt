@@ -1,0 +1,9 @@
+H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\LOICNet\bin\Debug\LOICNet.exe
+H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\LOICNet\bin\Debug\LOICNet.pdb
+H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\LOICNet\obj\Debug\ResolveAssemblyReference.cache
+H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\LOICNet\obj\Debug\LOICNet.frmMain.resources
+H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\LOICNet\obj\Debug\LOICNet.Properties.Resources.resources
+H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\LOICNet\obj\Debug\GenerateResource.read.1.tlog
+H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\LOICNet\obj\Debug\GenerateResource.write.1.tlog
+H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\LOICNet\obj\Debug\LOICNet.exe
+H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\LOICNet\obj\Debug\LOICNet.pdb

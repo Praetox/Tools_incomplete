@@ -1,0 +1,21 @@
+EVENT file_cut retry.kill 3
+SETC a, http://www.dosky.info/?s=images&start=
+SETC b, http://www.dosky.info/
+SETC c, http://www.dosky.info/dump.images/
+SETC d //Start from image x
+SAVETO +dosky\images
+NAVIGATE [[ca]][[cd]]
+    CUTA a, <td id="td_site">
+    CUTA b, <td id="td_site">
+    CUTB a, ">ллл</a>
+    SPLIT a, <a href="
+    CUTA a, ages&x=
+    CUTB a, ">
+    ADDA a, [[cc]]
+    GRAB a, 1, 1, [[ofn1]]
+    GETNOW
+    CUTB b, ">╗</a>
+    CUTA b, >л</a> <a href="?s=images&start=
+    SETC d, [[b]]
+    GOTO 7
+RETURN

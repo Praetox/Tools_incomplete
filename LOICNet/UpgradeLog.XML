@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LOICNet">
+</Property><Property Name="Solution File" Value="H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\LOICNet.sln">
+</Property><Property Name="User Options File" Value="H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\LOICNet.suo">
+</Property><Property Name="Date" Value="21. mars 2011">
+</Property><Property Name="Time" Value="15:44">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="LOICNet.sln" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet.sln">
+</Event><Event ErrorLevel="0" Project="" Source="LOICNet.suo" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet.suo">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\LOICNet.csproj" Description="Project file successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\LOICNet.csproj">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\LOICNet.csproj.user" Description="Project user file successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\LOICNet.csproj.user">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\frmMain.cs" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\frmMain.cs">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\frmMain.Designer.cs" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\frmMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\HTTPFlooder.cs" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\HTTPFlooder.cs">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\Program.cs" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\Program.cs">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\Properties\AssemblyInfo.cs" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\Properties\Resources.Designer.cs" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\Properties\Settings.Designer.cs" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\XXPFlooder.cs" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\XXPFlooder.cs">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\Properties\Settings.settings" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\frmMain.resx" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\Properties\Resources.resx" Description="File successfully backed up as H:\SAUCE\PTSOURCE\Tools_incomplete\LOICNet\Backup\LOICNet\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\LOICNet.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LOICNet" Source="LOICNet\LOICNet.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LOICNet.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LOICNet.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LOICNet" Source="LOICNet\LOICNet.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

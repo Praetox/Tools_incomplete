@@ -1,0 +1,55 @@
+// Old pImgDB skin
+
+#Main {
+	color-back: 303030
+	color-main: ffffff
+	text: "pImgDB ~old skin test~"
+	
+	!label Display_resolution {
+		size: 70; 9
+		location: 12; 0
+		color-main: b0b0b0
+		font-size: 6
+	}
+	!panel Dropdowns {
+		size: 214; 34
+		location: 12; 12
+		color-back: 202020
+		
+		!button Toggle_sidebars {
+			size: 10; 26
+			location: 3; 3
+			color-back: 606060
+		}
+		!textbox Change_sidepanel {
+			size: 92; 21
+			location: 19; 5
+			color-back: 181818
+			color-main: ffffff
+		}
+		!textbox Change_mainpanel {
+			size: 92; 21
+			location: 117; 5
+			color-back: 181818
+			color-main: ffffff
+		}
+	}
+	!panel Top_info {
+		size-x: all-244
+		size-y: 34
+		location: 232; 12
+		
+		!label Top_info_text {
+			location: 3; 0
+			size-x: all-236
+			size-y: 32
+			text: "Selected  ~  Rating  ~  Resolution  ~  Size"
+		}
+	}
+	!panel Sidepanel_general {
+		size-x: 214
+		size-y: all-64
+	}
+}
+
+// End of skin
